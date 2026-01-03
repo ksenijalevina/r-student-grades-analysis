@@ -15,7 +15,9 @@ The main goal of the analysis is to explore how personal, study-related factors 
 - RStudio
 
 ---
-
+## Data Source
+Data source: Kaggle - "Student Performance Dataset"
+[https://www.kaggle.com/datasets/balavashan/students-performance-dataset](https://www.kaggle.com/datasets/devansodariya/student-performance-data/data)
 ## Data
 
 The dataset contains information about students math course in secondary school, including:
