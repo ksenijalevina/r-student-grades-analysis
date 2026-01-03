@@ -48,7 +48,7 @@ if (!dir.exists("plots")) {
 
 png("plots/g3_distribution.png", width = 800, height = 600)
 
-hist(df$G3, col = 'lightblue', main = 'Final grafe distribution', xlab = 'Final grade')
+hist(df$G3, col = 'lightblue', main = 'Final grade distribution', xlab = 'Final grade')
 
 dev.off()
 
@@ -57,7 +57,7 @@ png("plots/g3_by_gender.png", width = 800, height = 600)
 boxplot(G3~sex,data = df, col = c('lightblue', 'pink'), 
         xlab = 'Sex', ylab = 'Final grade', main = 'Final grade by gender')
 
-str(boxplot(G3~sex,data = df, col = c('lightblue', 'pink'), 
+str(boxplot(G3~sex,data = df, col = c('pink', 'lightblue'), 
                 xlab = 'Sex', ylab = 'Final grade', main = 'Final grade by gender'))
 dev.off()
 
@@ -108,4 +108,5 @@ cor(df$G3, df$age)
 
 studytime_num <- as.numeric(df$studytime)
 cor(df$G3, studytime_num)
+
 
